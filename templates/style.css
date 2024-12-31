@@ -15,8 +15,8 @@
             color: white;
             /*margin-top: 10px;*/
             padding: 10px;
-            border-bottom: 2px solid black;
-            border-top: 2px solid black;
+            border-bottom: 2px solid #70d4d4;
+            border-top: 2px solid #70d4d4;
             z-index: 10;
 
         }
@@ -37,7 +37,51 @@
 
            .list-styling
         {
-            display: flex;
+            display: flex;* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px; /* This now applies a 50px gap between the navbar items */
+    background-color: darkgray;
+    color: white;
+    padding: 10px;
+    border-bottom: 2px solid #70d4d4;
+    border-top: 2px solid #70d4d4;
+    z-index: 10;
+}
+
+.whole-screen {
+    width: 100%;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.logo_img {
+    width: 40px;
+    height: auto;
+    mix-blend-mode: color-burn;
+}
+
+.navbar-item {
+    display: flex;
+}
+
+.navbar-item a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-item a:hover {
+    text-decoration: underline;
+}
+
+
             list-style: none;
             color: black;
             margin-right:30px;
@@ -45,13 +89,22 @@
         }
 
         .left-div{
-            background-color: aqua;
+
         }
 
-        div ul li {
+        div ul li:nth-child(1) {
+            margin-right: 20px;
+            margin-left: 20px;
             gap: 20px;
             background-color: white;
         }
+        div ul li:nth-child(2) {
+            margin-right: 20px;
+            margin-left: 20px;
+            gap: 20px;
+            background-color: white;
+        }
+
 
 
 
