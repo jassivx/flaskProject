@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.whole-screen {
+    /*flex: 1; /* Takes up the remaining space between navbar and footer */
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+    min-height: 90vh;
+    background-color: black;
+    font-size: larger;
+}
+
+.login{
+    color: black;
+    text-align: center;
+
+}
+
+/* Footer styling */
+.footer {
+    padding-top: 10px;
+    color: black;
+    background-color: darkgray;
+    font-size: 16px;
+    text-align: center;
+    height: 100px;
+
+}
+.footer p {
+    color: black;
+    align-content: center;
+}
+
+.login_container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    height: 400px;
+    width: 40%;
+    color: black;
+
+}
+
+
+.email{
+    display:flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.password{
+    display:flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+
+
+}
